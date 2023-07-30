@@ -140,7 +140,7 @@
     }
   },
   "variables": {
-    "WebAppImageName": "DOCKER|vpgembeddingrpacr.azurecr.io/vpg-embeddings",
+    "WebAppImageName": "DOCKER|mikeng0404/vpg-embeddings",
     "BlobContainerName": "documents",
     "QueueName": "doc-processing",
     "ClientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"

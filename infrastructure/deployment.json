@@ -177,7 +177,7 @@
   },
   "variables": {
     "ContainerImageName": "redis/redis-stack-server:latest",
-    "WebAppImageName": "DOCKER|vpgembeddingrpacr.azurecr.io/vpg-embeddings",
+    "WebAppImageName": "DOCKER|mikeng0404/vpg-embeddings",
     "BlobContainerName": "documents",
     "FileShareName": "redisdata",
     "QueueName": "doc-processing",
