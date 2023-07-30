@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   web:
-    image: oai-embeddings
+    image: mikeng0404/vpg-embeddings
     ports:
       - "8080:80"
     env_file:
