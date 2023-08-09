@@ -122,14 +122,16 @@
     },
     "OpenAIEmbeddingsEngineDoc": {
       "type": "string",
-      "defaultValue": "text-embedding-ada-002",
+      // "defaultValue": "text-embedding-ada-002",
+      "defaultValue": "embedding",
       "metadata": {
         "description": "OpenAI Embeddings Engine for Documents"
       }
     },
     "OpenAIEmbeddingsEngineQuery": {
       "type": "string",
-      "defaultValue": "text-embedding-ada-002",
+      // "defaultValue": "text-embedding-ada-002",
+      "defaultValue": "embedding",
       "metadata": {
         "description": "OpenAI Embeddings Engine for Queries"
       }
