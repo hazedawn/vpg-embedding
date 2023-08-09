@@ -142,7 +142,7 @@
     }
   },
   "variables": {
-    "WebAppImageName": "DOCKER|mikeng0404/vpg-embeddings",
+    "WebAppImageName": "DOCKER|fruocco/oai-embeddings",
     "BlobContainerName": "documents",
     "QueueName": "doc-processing",
     "ClientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
